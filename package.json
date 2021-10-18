@@ -1,9 +1,9 @@
 {
-  "name": "31chillin.github.io",
+  "name": "min-9.github.io",
   "private": false,
   "description": "A neat blog theme for developers",
   "version": "1.1.0",
-  "author": "31chillin <github.com/31chillin>",
+  "author": "min-9 <github.com/min-9>",
   "dependencies": {
     "@fontsource/montserrat": "^4.2.2",
     "@material-ui/core": "^4.11.3",
@@ -62,7 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/31chillin/31chillin.github.io"
+    "url": "https://github.com/min-9/min-9.github.io"
   },
   "bugs": {
     "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"

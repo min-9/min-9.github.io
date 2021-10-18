@@ -1,12 +1,12 @@
 module.exports = {
   title: `나의 개발 블로그`,
-  description: `7INDAYS PAGE`,
+  description: `MIN-9 BLOG`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://7indays.github.io`,
+  siteUrl: `https://min-9.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `7indays/blog-comments`, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `min-9/blog-comments`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: 'G-G6CYRC3RQ1', // Google Analytics Tracking ID
@@ -14,11 +14,15 @@ module.exports = {
     name: `강민구`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: [
+        '사람에 가치를 두는',
+        '능동적으로 일하는',
+        '이로운 것을 만드는',
+      ],
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/7indays`, // `https://github.com/zoomKoding`,
+      github: `https://github.com/min-9`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `mg07315@gmail.com`, // `zoomkoding@gmail.com`,
     },
@@ -63,8 +67,10 @@ module.exports = {
         activity: '스타트업 인턴십 진행 & Picky 개발',
         links: {
           post: '/start-up-app-development',
-          googlePlay: 'https://play.google.com/store/apps/details?id=care.jivaka.picky',
-          appStore: 'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
+          googlePlay:
+            'https://play.google.com/store/apps/details?id=care.jivaka.picky',
+          appStore:
+            'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
         },
       },
 
@@ -140,8 +146,10 @@ module.exports = {
         thumbnailUrl: 'picky.png',
         links: {
           post: '/start-up-app-development',
-          googlePlay: 'https://play.google.com/store/apps/details?id=care.jivaka.picky',
-          appStore: 'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
+          googlePlay:
+            'https://play.google.com/store/apps/details?id=care.jivaka.picky',
+          appStore:
+            'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
         },
       },
       {
