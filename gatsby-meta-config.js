@@ -1,6 +1,6 @@
 module.exports = {
-  title: `개발 기록(Devlog)`,
-  description: `Welcome to my devlog`,
+  title: `min-9.log`,
+  description: `Welcome to my log`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://min-9.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder

@@ -35,7 +35,9 @@ const PageHeader = ({ siteTitle }) => {
                   size="medium"
                   color="default"
                   checked={theme === 'dark'}
-                  onChange={(e) => toggleTheme(e.target.checked ? 'dark' : 'light')}
+                  onChange={e =>
+                    toggleTheme(e.target.checked ? 'dark' : 'light')
+                  }
                 />
               </div>
             </div>
