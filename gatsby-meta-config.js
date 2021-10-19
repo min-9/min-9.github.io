@@ -48,67 +48,71 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2018.04 ~',
-        activity: '개발 시작 & 블로그 시작',
+        date: '2018.06 ~',
+        activity: '개발 시작',
       },
       {
-        date: '2018.07 ~ 2018.11',
-        activity: '인공지능 육목 알고리즘 개발 & 경진대회 우승',
+        date: '2021.10 ~',
+        activity: '블로그 시작',
       },
+      // {
+      //   date: '2018.07 ~ 2018.11',
+      //   activity: '인공지능 육목 알고리즘 개발 & 경진대회 우승',
+      // },
 
-      {
-        date: '2019.06 ~ 2019.12',
-        activity: '알고리즘 휴학 & 코드포스 블루 달성',
-        links: {
-          post: '/how-to-algo',
-        },
-      },
-      {
-        date: '2019.12 ~ 2020.06',
-        activity: '스타트업 인턴십 진행 & Picky 개발',
-        links: {
-          post: '/start-up-app-development',
-          googlePlay:
-            'https://play.google.com/store/apps/details?id=care.jivaka.picky',
-          appStore:
-            'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
-        },
-      },
+      // {
+      //   date: '2019.06 ~ 2019.12',
+      //   activity: '알고리즘 휴학 & 코드포스 블루 달성',
+      //   links: {
+      //     post: '/how-to-algo',
+      //   },
+      // },
+      // {
+      //   date: '2019.12 ~ 2020.06',
+      //   activity: '스타트업 인턴십 진행 & Picky 개발',
+      //   links: {
+      //     post: '/start-up-app-development',
+      //     googlePlay:
+      //       'https://play.google.com/store/apps/details?id=care.jivaka.picky',
+      //     appStore:
+      //       'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
+      //   },
+      // },
 
-      {
-        date: '2020.07 ~ 2020.08',
-        activity: '2020 우아한테크캠프 참여',
-        links: {
-          post: '/woowa-tech-camp-final',
-          github: 'https://github.com/woowa-techcamp-2020/bmart-6',
-        },
-      },
+      // {
+      //   date: '2020.07 ~ 2020.08',
+      //   activity: '2020 우아한테크캠프 참여',
+      //   links: {
+      //     post: '/woowa-tech-camp-final',
+      //     github: 'https://github.com/woowa-techcamp-2020/bmart-6',
+      //   },
+      // },
 
-      {
-        date: '2021.01 ~ 2021. 04',
-        activity: '대학시간(대학교 수강신청 보조 웹 앱) 개발 및 운영',
-        links: {
-          post: '/college-timetable-development',
-          github: 'https://github.com/zoomkoding/college-timetable',
-          demo: 'https://www.timetable.college',
-        },
-      },
-      {
-        date: '2021.02 ~',
-        activity: '개발 블로그 스타터 개발 및 유지 보수',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
-      },
-      {
-        date: '2021.04 ~',
-        activity: '만다오(프로모션 웹앱 빌더) 개발',
-        links: {
-          post: 'https://techblog.woowahan.com/2719',
-        },
-      },
+      // {
+      //   date: '2021.01 ~ 2021. 04',
+      //   activity: '대학시간(대학교 수강신청 보조 웹 앱) 개발 및 운영',
+      //   links: {
+      //     post: '/college-timetable-development',
+      //     github: 'https://github.com/zoomkoding/college-timetable',
+      //     demo: 'https://www.timetable.college',
+      //   },
+      // },
+      // {
+      //   date: '2021.02 ~',
+      //   activity: '개발 블로그 스타터 개발 및 유지 보수',
+      //   links: {
+      //     post: '/gatsby-starter-zoomkoding-introduction',
+      //     github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+      //     demo: 'https://www.zoomkoding.com',
+      //   },
+      // },
+      // {
+      //   date: '2021.04 ~',
+      //   activity: '만다오(프로모션 웹앱 빌더) 개발',
+      //   links: {
+      //     post: 'https://techblog.woowahan.com/2719',
+      //   },
+      // },
     ],
 
     projects: [
