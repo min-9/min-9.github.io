@@ -17,7 +17,7 @@ module.exports = {
       description: [
         '배움을 즐기는',
         '소통을 좋아하는',
-        '기억하고 기록하는',
+        '일상을 기록하는',
         '개발자가 되고 싶은',
       ],
       thumbnail: 'min-9.gif', // Path to the image in the 'asset' folder
