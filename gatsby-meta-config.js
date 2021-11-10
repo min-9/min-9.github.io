@@ -13,7 +13,7 @@ module.exports = {
   author: {
     name: `강민구`,
     bio: {
-      role: `대학생`,
+      role: `개발자`,
       description: [
         '배움을 즐기는',
         '소통을 좋아하는',

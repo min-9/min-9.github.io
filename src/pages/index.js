@@ -18,8 +18,8 @@ export default ({ data }) => {
     () =>
       tabIndex === 0
         ? posts
-        : posts.filter((post) => post.categories.includes(categories[tabIndex])),
-    [categories, tabIndex, posts],
+        : posts.filter(post => post.categories.includes(categories[tabIndex])),
+    [categories, tabIndex, posts]
   );
   const onTabIndexChange = useCallback((e, value) => setTabIndex(value), []);
 
@@ -27,7 +27,12 @@ export default ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Bio author={author} language={language} />
-      <Tabs className={'tabs'} value={tabIndex} onChange={onTabIndexChange} tabs={categories} />
+      <Tabs
+        className={'tabs'}
+        value={tabIndex}
+        onChange={onTabIndexChange}
+        tabs={categories}
+      />
       <PostCardsColumn
         posts={categoryPosts.slice(0, 4)}
         moreUrl={`posts/${tabIndex === 0 ? '' : categories[tabIndex]}`}
