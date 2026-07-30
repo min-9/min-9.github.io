@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.player {
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ambient Glow */
+.video-glow {
+  position: absolute;
+
+  width: 80vw;
+  height: 90vh;
+
+  border-radius: 2rem;
+
+  background: radial-gradient(circle, white 0%, transparent 70%);
+
+  filter: blur(160px);
+
+  opacity: 0.25;
+
+  transform: scale(1.2);
+
+  transition: background 0.3s linear;
+
+  pointer-events: none;
+
+  z-index: 5;
+}
+
+/* 어두운 비네팅 */
+.bg-gradient {
+  position: absolute;
+
+  inset: 0;
+
+  background: radial-gradient(circle, transparent 30%, rgba(0, 0, 0, 0.4) 100%);
+
+  pointer-events: none;
+
+  z-index: 6;
+}
+
+.video {
+  position: relative;
+
+  height: 100vh;
+
+  aspect-ratio: 9 / 16;
+
+  object-fit: contain;
+
+  box-shadow: 0 0 120px rgba(255, 255, 255, 0.08);
+
+  z-index: 10;
+}
+
+.paused-overlay {
+  position: absolute;
+
+  height: 100vh;
+  aspect-ratio: 9 / 16;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.28);
+
+  z-index: 20;
+
+  cursor: pointer;
+}
+
+.play-button {
+  width: 0;
+  height: 0;
+
+  border-left: 42px solid white;
+  border-top: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+
+  margin-left: 8px;
+
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
+}
